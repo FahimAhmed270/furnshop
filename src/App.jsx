@@ -1,9 +1,12 @@
 import React from 'react'
+import Feature from './Component/Feature'
+import Hero from './Component/Hero'
 
 const App = () => {
   return (
-    <div className='text-3xl font-bold text-red-500'>
-      fahim
+    <div className='w-full bg-white mx-auto'>
+      <Hero/>
+      <Feature/>
     </div>
   )
 }
