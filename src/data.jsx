@@ -127,6 +127,22 @@ import {
         name: 'lighting',
         image: <LightingImg />,
       },
+      {
+        name: 'chair',
+        image: <ChairImg />,
+      },
+      {
+        name: 'bed',
+        image: <BedImg />,
+      },
+      {
+        name: 'cupboard',
+        image: <CupboardImg />,
+      },
+      {
+        name: 'lighting',
+        image: <LightingImg />,
+      },
     ],
   };
   
