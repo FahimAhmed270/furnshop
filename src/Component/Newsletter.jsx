@@ -8,10 +8,10 @@ const Newsletter = () => {
       <div className="container mx-auto flex justify-center lg:justify-end">
         <div className='w-full max-w-[558px] text-white text-center lg:text-left'>
           <h2 className='text-4xl font-semibold max-w-[350px] mx-auto lg:mx-0 leading-normal'>{title}</h2>
-          <p>{subtitle}</p>
-          <div>
-            <input type="text" />
-            <button>{buttonText}</button>
+          <p className='text-xl font-light mb-10'>{subtitle}</p>
+          <div className='flex flex-col lg:flex-row gap-[22px]'>
+            <input type="text" placeholder={placeholder}  className='h-[60px] outline-none px-6 placehoider:text-gray-400 text-gray-600 rounded-lg lg:flex-1'/>
+            <button className='bg-primary h-[60px] hover:bg-slate-900 px-7 rounded-lg font-medium text-xl transition'>{buttonText}</button>
           </div>
         </div>
       </div>

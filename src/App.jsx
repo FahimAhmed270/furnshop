@@ -1,6 +1,7 @@
 import React from 'react'
 import Feature from './Component/Feature'
 import FeatureSecond from './Component/FeatureSecond'
+import Footer from './Component/Footer'
 import Hero from './Component/Hero'
 import NewItems from './Component/NewItems'
 import Newsletter from './Component/Newsletter'
@@ -17,6 +18,7 @@ const App = () => {
       <Products/>
       <Testimonial/>
       <Newsletter/>
+      <Footer/>
     </div>
   )
 }
