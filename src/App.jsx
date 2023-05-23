@@ -3,6 +3,7 @@ import Feature from './Component/Feature'
 import FeatureSecond from './Component/FeatureSecond'
 import Hero from './Component/Hero'
 import NewItems from './Component/NewItems'
+import Newsletter from './Component/Newsletter'
 import Products from './Component/Products'
 import Testimonial from './Component/Testimonial'
 
@@ -15,6 +16,7 @@ const App = () => {
       <FeatureSecond/>
       <Products/>
       <Testimonial/>
+      <Newsletter/>
     </div>
   )
 }

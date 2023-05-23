@@ -23,7 +23,7 @@ const TestimonialSlider = () => {
         const { avatar, name, occupation, message } = person
         return (
           <SwiperSlide key={id}>
-            <div className='flex flex-col min-h-[250px] sm:min-h-[200px]'>
+            <div className='flex flex-col lg:min-h-[280px] sm:min-h-[200px]'>
               <div className='flex items-center gap-x-5 mb-5'>
                 {/* avater */}
                 <img src={avatar.type} alt="" />
